@@ -30,4 +30,6 @@ Note: you can also leverage a Windows VM, but this blog leverages Linux as an ex
 In this section we are going to create a new Azure Linux VM and configure the prerequisites.
 1.	Open the Azure Portal and create a new Ubuntu Server 18.04 LTS VM, using a SSH public key is a security best practice:
 
-
+![alt text](https://github.com/tianderturpijn/MCAS/blob/master/MCAS-ASC%20integration/screenshots/create_VM.png)
+<br>
+<br>
