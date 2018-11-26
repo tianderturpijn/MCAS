@@ -42,6 +42,13 @@ RAM: 2 GB <br>
 The server must be running Java 8. Earlier versions are not supported. <br>
 Set your firewall as described in <a href="https://docs.microsoft.com/en-us/cloud-app-security/network-requirements" target="_blank">network requirements</a>
 
-3.	Configure the remainder of the Azure create VM wizard as you see fit, but make sure to add a public port for SSH (port 22)
+3.	Configure the remainder of the Azure create VM wizard as you see fit, but make sure to add a public port for SSH (port 22) <br>
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/ssh_port.png)
+<br>
+<br>
 
+4. When the VM has been deployed, make sure to make a note of the VM’s public IP address, which can be found under the VM overview settings: <br>
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/public_ip.png)
+<br>
+<br>
 
