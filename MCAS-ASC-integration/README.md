@@ -53,4 +53,22 @@ Set your firewall as described in <a href="https://docs.microsoft.com/en-us/clou
 <br>
 
 5.	Since we are going to send CEF over syslog data to this VM, we need to add an NSG rule which allows UDP traffic over port 514. Configure the source and destination for better locked down security.
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/inbound_rules.png)
+<br>
+<br>
+
+### Step 2 - Configure the SIEM agent in MCAS
+For a full description how to configure the MCAS SIEM agent, please go here 
+1.	Open the Cloud App Security portal and click on **Settings** -> **Security extensions**
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/security_extensions.png)
+<br>
+<br>
+
+2.	In the SIEM agents tab, click on the **"+"** sign in the upper right corner <br> 
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/siem_agent.png)
+<br>
+<br>
+
+
+
 
