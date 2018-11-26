@@ -33,3 +33,15 @@ In this section we are going to create a new Azure Linux VM and configure the pr
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/create_vm.png)
 <br>
 <br>
+
+2.	Provide a name and select your hardware configuration
+a.	Please note that for a production environment the following is recommended for the MCAS SIEM agent VM:<br>
+CPU: 2 <br>
+Disk space: 20 GB <br>
+RAM: 2 GB <br>
+The server must be running Java 8. Earlier versions are not supported. <br>
+Set your firewall as described in <a href="https://docs.microsoft.com/en-us/cloud-app-security/network-requirements" target="_blank">network requirements</a>
+
+3.	Configure the remainder of the Azure create VM wizard as you see fit, but make sure to add a public port for SSH (port 22)
+
+
