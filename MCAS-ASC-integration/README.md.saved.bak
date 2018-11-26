@@ -60,5 +60,11 @@ Set your firewall as described in <a href="https://docs.microsoft.com/en-us/clou
 ### Step 2 - Configure the SIEM agent in MCAS
 For a full description how to configure the MCAS SIEM agent, please go here 
 1.	Open the Cloud App Security portal and click on **Settings** -> **Security extensions**
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/security_extensions.png)
+<br>
+<br>
+
+2.	In the SIEM agents tab, click on the **"+"** sign in the upper right corner 
+
 
 
