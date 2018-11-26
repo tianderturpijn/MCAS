@@ -69,6 +69,34 @@ For a full description how to configure the MCAS SIEM agent, please go here
 <br>
 <br>
 
+3.	Click on **Start Wizard** to start the SIEM agent configuration wizard
+4.	Provide an Agent Name, select Generic CEF as the SIEM format and make sure to select **RFC 3164, include PRI, include system name**
+a.	These settings ensure the usage of the correct CEF schema, priority and sending hostname (for easier querying) <br>
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent.png)
+<br>
+Click on **Next**
+
+5.	Fill in the **Remote Syslog host** field by providing the public IP address of the Linux VM you have created in “Create the SIEM Agent VM in Azure”, step 4.
+In our example we are using port 514 as the **remote syslog port** and UDP as the **remote syslog protocol**, but this can be any port and either TCP or UDP.
+
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent2.png)
+<br>
+Click on **Next** <br>
+
+6.	Under **Data Types**, select which data you would like to send to the SIEM agent. In our example we are going to send **all alerts** and **all activities**.
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent3.png)
+<br>
+Click on **Next** <br>
+
+7.	A token will be generated, and you will see a “congratulations!” confirmation. 
+**Make sure you copy the token to your clipboard**.
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent3.png)
+<br>
+Click on **Close** <br>
+
+8.	You should now see a new SIEM agent entry, notice the **Type** and **Status**
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent4.png)
+<br>
 
 
 
