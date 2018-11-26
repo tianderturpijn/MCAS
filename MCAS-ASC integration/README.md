@@ -11,6 +11,4 @@ This blogpost is assuming that you have the following in place: <br>
 ##### High-level steps
 The scenario we want to achieve is high-level captured in the following figure: <br>
 
-![alt text](https://github.com/tianderturpijn/MCAS/blob/master/MCAS-ASC%20integration/screenshots/highlevel_overview.png)
-
 ![](https://github.com/tianderturpijn/mcas/blob/master/mcas-asc%20integration/screenshots/highlevel_overview.png)
