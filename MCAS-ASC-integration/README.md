@@ -36,11 +36,11 @@ In this section we are going to create a new Azure Linux VM and configure the pr
 
 2.	Provide a name and select your hardware configuration
 a.	Please note that for a production environment the following is recommended for the MCAS SIEM agent VM:<br>
-CPU: 2 <br>
-Disk space: 20 GB <br>
-RAM: 2 GB <br>
-The server must be running Java 8. Earlier versions are not supported. <br>
-Set your firewall as described in <a href="https://docs.microsoft.com/en-us/cloud-app-security/network-requirements" target="_blank">network requirements</a>
+* CPU: 2 <br>
+* Disk space: 20 GB <br>
+* RAM: 2 GB <br>
+* The server must be running Java 8. Earlier versions are not supported. <br>
+* Set your firewall as described in <a href="https://docs.microsoft.com/en-us/cloud-app-security/network-requirements" target="_blank">network requirements</a>
 
 3.	Configure the remainder of the Azure create VM wizard as you see fit, but make sure to add a public port for SSH (port 22) <br>
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/ssh_port.png)
@@ -74,6 +74,7 @@ For a full description how to configure the MCAS SIEM agent, please go here
 a.	These settings ensure the usage of the correct CEF schema, priority and sending hostname (for easier querying) <br>
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent.png)
 <br>
+
 Click on **Next**
 
 5.	Fill in the **Remote Syslog host** field by providing the public IP address of the Linux VM you have created in “Create the SIEM Agent VM in Azure”, step 4.
@@ -86,12 +87,14 @@ Click on **Next** <br>
 6.	Under **Data Types**, select which data you would like to send to the SIEM agent. In our example we are going to send **all alerts** and **all activities**.
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent3.png)
 <br>
+
 Click on **Next** <br>
 
 7.	A token will be generated, and you will see a “congratulations!” confirmation. 
 **Make sure you copy the token to your clipboard**. <br>
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/configure_siem_agent3.png)
 <br>
+
 Click on **Close** <br>
 
 8.	You should now see a new SIEM agent entry, notice the **Type** and **Status** <br>
