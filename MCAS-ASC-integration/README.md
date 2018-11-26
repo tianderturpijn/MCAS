@@ -52,3 +52,5 @@ Set your firewall as described in <a href="https://docs.microsoft.com/en-us/clou
 <br>
 <br>
 
+5.	Since we are going to send CEF over syslog data to this VM, we need to add an NSG rule which allows UDP traffic over port 514. Configure the source and destination for better locked down security.
+
