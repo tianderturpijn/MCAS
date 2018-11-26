@@ -167,12 +167,12 @@ Before we can start the installation of the MMA, we need to know which workspace
 Note: skip the following steps if you already know which Log Analytics workspace ASC is using
 
 1.	Navigate to the ASC blade in the Azure Portal
-2.	Under **Resource Security Hygiene**, click on **Security solutions**
+2.	Under **Resource Security Hygiene**, click on **Security solutions** <br>
 
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/asc_solutions.png)
 <br>
 
-3.	Look for **CEF** and click on **Add**
+3.	Look for **CEF** and click on **Add** <br>
 ![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/cef.png)
 <br>
 
