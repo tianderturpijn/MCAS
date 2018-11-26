@@ -9,6 +9,6 @@ This blogpost is assuming that you have the following in place: <br>
 * A configured ASC environment, if you don't have an ASC environment, go <a href="https://docs.microsoft.com/en-us/azure/security-center/security-center-get-started" target="_blank">here</a>
  
 ##### High-level steps
-The scenario we want to achieve is high-level captured in the following figure: <br>
+The scenario we want to achieve is at a high-level captured in the following figure: <br>
 
 ![alt text](https://github.com/tianderturpijn/MCAS/blob/master/MCAS-ASC%20integration/screenshots/highlevel_overview.png)
