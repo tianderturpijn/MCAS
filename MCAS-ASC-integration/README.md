@@ -11,7 +11,7 @@ This blogpost is assuming that you have the following in place: <br>
 #### High-level steps
 The scenario we want to achieve is at a high-level captured in the following figure: <br>
 
-![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC%20integration/screenshots/highlevel_overview.png)
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/highlevel_overview.png)
 <br>
 <br>
 
@@ -30,6 +30,6 @@ Note: you can also leverage a Windows VM, but this blog leverages Linux as an ex
 In this section we are going to create a new Azure Linux VM and configure the prerequisites.
 1.	Open the Azure Portal and create a new Ubuntu Server 18.04 LTS VM, using a SSH public key is a security best practice:
 
-![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC%20integration/screenshots/create_vm.png)
+![alt text](https://raw.githubusercontent.com/tianderturpijn/MCAS/master/MCAS-ASC-integration/screenshots/create_vm.png)
 <br>
 <br>
